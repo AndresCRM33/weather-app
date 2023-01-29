@@ -1,0 +1,61 @@
+.ciudad{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.container{
+    /* background-color: white; */
+    background-color: rgba(0, 0, 0, 0.116);
+    width: 300px;
+    min-height: 400px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.233), 10px 10px 20px rgba(0, 0, 0, 0.192);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+.sinCiudad{
+    margin-top: 100px;
+}
+
+h2{
+    font-size: 35px;
+    padding-top: 30px;
+    color: rgb(255, 255, 255);
+    font-style: italic;
+}
+
+.info{
+    font-size: 20px;
+    padding: 20px;
+    color: white;
+}
+
+
+
+.btnVolver{
+    background-color: rgb(113, 113, 255);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-decoration: none;
+    color: white;
+    width: 70px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.308),
+                inset -3px -3px 5px rgba(0, 0, 0, 0.308);
+    transition: all 0.3s;
+}
+
+@media screen and (max-width:765px){
+    .ciudad{
+        margin-top: 250px;
+    }
+}

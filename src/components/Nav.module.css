@@ -1,0 +1,47 @@
+.contenedor{
+  padding: 15px;
+  /* background-color: rgb(34, 34, 143); */
+  background-color: rgb(0, 24, 37);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-height: 70px;
+  overflow: hidden;
+  position: fixed;
+  z-index: 100;
+}
+
+
+h1{
+  color: white;
+}
+
+.about{
+  transition: all 0.2s;
+  padding: 30px;
+}
+
+.about span{
+  color: rgb(255, 255, 255);
+}
+
+.about:hover{
+  background-color: gray;
+}
+
+@media screen and (max-width:765px){
+      .contenedor{
+        flex-direction: column;
+        max-height: 170px;
+
+      }
+
+      h1{
+        margin-bottom: 10px;
+      }
+
+      .about{
+        margin-bottom: 20px;
+      }
+}
